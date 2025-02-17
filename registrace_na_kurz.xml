@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Kateřina Dobiášová</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C190</id>
+				<title>Registrace- fyzická osoba (pozitivní)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka potvrdí registraci a registrované údaje se promítnou do tabulky (http://testovani.kitner.cz/regkurz/list.php).</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C191</id>
+				<title>Registrace- právnická osoba (pozitivní)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky právnickou osobu.
+4. Zájemce vyplní IČO.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka potvrdí registraci a registrované údaje se promítnou do tabulky (http://testovani.kitner.cz/regkurz/list.php).
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C192</id>
+				<title>Registrace- chybějící název kurzu</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce opomine vybrat kurz a políčko zůstane prázdné.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybějící údaje a registrace neproběhne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C193</id>
+				<title>Registrace- chybějící jméno</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní nevyplní jméno, ale vyplní příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.
+</steps>
+											<expected>Stránka potvrdí registraci a registrované údaje se promítnou do tabulky (http://testovani.kitner.cz/regkurz/list.php).
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C194</id>
+				<title>Registrace- jméno s překročeným počtem znaků</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno o délce 31 znaků a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní ne překročený počet znaků a neumožní registraci.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C195</id>
+				<title>Registrace- jméno s neplatnými znaky</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno s neplatným znakem a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní  na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C196</id>
+				<title>Registrace- chybějící příjmení</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno, ale nevyplní příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka akceptuje registrace a propíše data do Výpisu.
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C197</id>
+				<title>Registrace- příjmení s neplatnými znaky</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení, které obsahuje neplatný znak.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní  na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C198</id>
+				<title>Registrace- příjmení s překročeným počtem znaků</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+</preconds>
+											<steps>Zájemce vybere druh kurzu, na který se chce registrovat.
+Zájemce vyplní jméno a příjmení, které překračuje povolený počet znaků (36).
+Zájemce vybere z nabídky fyzickou osobu.
+Zájemce vyplní adresu.
+Zájemce vyplní e-mail ve správném tvaru.
+Zájemce vyplní telefon ve správném tvaru.
+Zájemce vyplní počet osob, které jsou na kurz registrovány.
+Zájemce vyplní komentář.
+Zájemce zaškrtne souhlas se zpracování osobních údajů.
+Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.
+</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a nepovolí registraci.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C199</id>
+				<title>Registrace- chybějící údaj FO/PO</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce nevybere z nabídky FO či PO.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Formulář ohlásí chybu a nepovolí registraci na kurz.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C200</id>
+				<title>Registrace- chybějící e-mail</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce nevyplní e-mail.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka ohlásí chybu ve formuláři a odmítne registraci.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C201</id>
+				<title>Registrace- e-mail s překročeným počtem znaků</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail s překročeným maximálním počtem znaků (51).
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a nepovolí registraci.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C202</id>
+				<title>Registrace- e-mail s jiným znakem než @</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail, ve kterém je místo @ zadán chybně znak &amp;.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.
+</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C203</id>
+				<title>Registrace- chybějící jméno v e-mailu</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail, ve kterém opomene jméno.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.
+</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci zamítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C204</id>
+				<title>Registrace- chybějící doména v e-mailu</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail, ve kterém opomene doménu (.com).
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci zamítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C205</id>
+				<title>Registrace- překročený počet znaků IČ</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky právnickou osobu.
+4. Zájemce vyplní IČO s překročeným počtem znaků (21).
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C206</id>
+				<title>Registrace- chybějící adresa</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce nevyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C207</id>
+				<title>Registrace- adresa s neplatnými znaky</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu, ve které se vyskytují neplatné znaky.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C208</id>
+				<title>Registrace- překročený počet znaků v adrese</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu, která překračuje povolený počet znaků (350 znaků).
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C209</id>
+				<title>Registrace- chybějící telefon</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce nevyplní telefon.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C210</id>
+				<title>Registrace- telefonní číslo s menším počtem znaků</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon s jedním chybějícím číslem.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C211</id>
+				<title>Registrace- telefonní číslo s chybějící předvolbou</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon s chybějící předvolbou.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci zamítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C212</id>
+				<title>Registrace- telefonní číslo s větším počtem znaků</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon s překročeným počtem znaků.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C213</id>
+				<title>Registrace- telefonní číslo s neplatnými znaky</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefonní číslo s neplatným znakem.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C214</id>
+				<title>Registrace- telefonní číslo s jinou předvolbou</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon se Slovenskou předvolbou (+421).
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C215</id>
+				<title>Registrace- chybějící počet osob</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce nezadá počet osob.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní  na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C216</id>
+				<title>Registrace- neplatné znaky v počtu osob</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob slovně místo numericky.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní  na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C217</id>
+				<title>Registrace- neudělení souhlasu</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce nezaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>
+Stránka upozorní  na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C218</id>
+				<title>Registrace- překročení počtu znaků v komentáři</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář s více, než povoleným počtem znaků.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka upozorní  na chybu ve formuláři a registraci odmítne.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C219</id>
+				<title>Registrace- chybějící komentář</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).</preconds>
+											<steps>1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce nevyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko &quot;Chci se registrovat&quot;.</steps>
+											<expected>Stránka potvrdí registraci a registrované údaje se promítnou do tabulky (http://testovani.kitner.cz/regkurz/list.php).</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C220</id>
+				<title>Výpis registrovaných účastníků- kontrola propisu údajů</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Je otevřena tabulka s výpisem registrovaných klientů.</preconds>
+											<steps>Na základě známých limitů je provedena kontrola propisu znaků ve formuláři.
+
+S ohledem na předchozí testovací případy jsou zkontrolovány položky, kde byl úmyslně překročen počet znaků a registrace takových údajů proběhla v pořádku i přes limit.
+
+Zkontrolovány jsou tedy propisy u:
+Jméno: 30 (použito 31 znaků)
+Email: 50 (použito 51 znaků)
+Adresa: 300 (použito 301 znaků)
+Komentář: 1000 (použito 1011 znaků)
+
+Vybrané případy jsou z výpisu vyjmuty a jejich délka je překontrolována.
+
+
+</steps>
+											<expected>Tabulka zachová veškerý počet znaků i přes jejich překročení pro zachování konzistence.</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>

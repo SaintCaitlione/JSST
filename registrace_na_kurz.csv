@@ -1,0 +1,332 @@
+"ID","Title","Assigned To","Automation Type","Created By","Created On","Estimate","Expected Result","Forecast","Goals","Mission","Preconditions","Priority","References","Section","Section Depth","Section Description","Section Hierarchy","Status","Steps","Steps","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Step)","Suite","Suite ID","Template","Type","Updated By","Updated On"
+"C190","Registrace- fyzická osoba (pozitivní)",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka potvrdí registraci a registrované údaje se promítnou do tabulky (http://testovani.kitner.cz/regkurz/list.php).","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C191","Registrace- právnická osoba (pozitivní)",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka potvrdí registraci a registrované údaje se promítnou do tabulky (http://testovani.kitner.cz/regkurz/list.php).
+","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky právnickou osobu.
+4. Zájemce vyplní IČO.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C192","Registrace- chybějící název kurzu",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybějící údaje a registrace neproběhne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce opomine vybrat kurz a políčko zůstane prázdné.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C193","Registrace- chybějící jméno",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka potvrdí registraci a registrované údaje se promítnou do tabulky (http://testovani.kitner.cz/regkurz/list.php).
+","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Low","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní nevyplní jméno, ale vyplní příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".
+","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C194","Registrace- jméno s překročeným počtem znaků",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní ne překročený počet znaků a neumožní registraci.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno o délce 31 znaků a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C195","Registrace- jméno s neplatnými znaky",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní  na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","High","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno s neplatným znakem a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C196","Registrace- chybějící příjmení",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka akceptuje registrace a propíše data do Výpisu.
+","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno, ale nevyplní příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C197","Registrace- příjmení s neplatnými znaky",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní  na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení, které obsahuje neplatný znak.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C198","Registrace- příjmení s překročeným počtem znaků",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a nepovolí registraci.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","Zájemce vybere druh kurzu, na který se chce registrovat.
+Zájemce vyplní jméno a příjmení, které překračuje povolený počet znaků (36).
+Zájemce vybere z nabídky fyzickou osobu.
+Zájemce vyplní adresu.
+Zájemce vyplní e-mail ve správném tvaru.
+Zájemce vyplní telefon ve správném tvaru.
+Zájemce vyplní počet osob, které jsou na kurz registrovány.
+Zájemce vyplní komentář.
+Zájemce zaškrtne souhlas se zpracování osobních údajů.
+Zájemce klikne na tlačítko """"Chci se registrovat"""".
+","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C199","Registrace- chybějící údaj FO/PO",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Formulář ohlásí chybu a nepovolí registraci na kurz.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce nevybere z nabídky FO či PO.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C200","Registrace- chybějící e-mail",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka ohlásí chybu ve formuláři a odmítne registraci.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce nevyplní e-mail.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C201","Registrace- e-mail s překročeným počtem znaků",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a nepovolí registraci.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail s překročeným maximálním počtem znaků (51).
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C202","Registrace- e-mail s jiným znakem než @",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail, ve kterém je místo @ zadán chybně znak &.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".
+","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C203","Registrace- chybějící jméno v e-mailu",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci zamítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail, ve kterém opomene jméno.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".
+","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C204","Registrace- chybějící doména v e-mailu",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci zamítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail, ve kterém opomene doménu (.com).
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C205","Registrace- překročený počet znaků IČ",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky právnickou osobu.
+4. Zájemce vyplní IČO s překročeným počtem znaků (21).
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C206","Registrace- chybějící adresa",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce nevyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C207","Registrace- adresa s neplatnými znaky",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu, ve které se vyskytují neplatné znaky.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C208","Registrace- překročený počet znaků v adrese",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu, která překračuje povolený počet znaků (350 znaků).
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C209","Registrace- chybějící telefon",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce nevyplní telefon.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C210","Registrace- telefonní číslo s menším počtem znaků",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon s jedním chybějícím číslem.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C211","Registrace- telefonní číslo s chybějící předvolbou",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci zamítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon s chybějící předvolbou.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C212","Registrace- telefonní číslo s větším počtem znaků",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon s překročeným počtem znaků.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C213","Registrace- telefonní číslo s neplatnými znaky",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).
+","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefonní číslo s neplatným znakem.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C214","Registrace- telefonní číslo s jinou předvolbou",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon se Slovenskou předvolbou (+421).
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C215","Registrace- chybějící počet osob",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní  na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce nezadá počet osob.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C216","Registrace- neplatné znaky v počtu osob",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní  na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob slovně místo numericky.
+8. Zájemce vyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C217","Registrace- neudělení souhlasu",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","
+Stránka upozorní  na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář.
+9. Zájemce nezaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C218","Registrace- překročení počtu znaků v komentáři",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka upozorní  na chybu ve formuláři a registraci odmítne.","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce vyplní komentář s více, než povoleným počtem znaků.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C219","Registrace- chybějící komentář",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Stránka potvrdí registraci a registrované údaje se promítnou do tabulky (http://testovani.kitner.cz/regkurz/list.php).","","","","Zájemce o kurz se nachází na stránce registračního formuláře (http://testovani.kitner.cz/regkurz/).","Medium","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","1. Zájemce vybere druh kurzu, na který se chce registrovat.
+2. Zájemce vyplní jméno a příjmení.
+3. Zájemce vybere z nabídky fyzickou osobu.
+4. Zájemce vyplní adresu.
+5. Zájemce vyplní e-mail ve správném tvaru.
+6. Zájemce vyplní telefon ve správném tvaru.
+7. Zájemce vyplní počet osob, které jsou na kurz registrovány.
+8. Zájemce nevyplní komentář.
+9. Zájemce zaškrtne souhlas se zpracování osobních údajů.
+10. Zájemce klikne na tlačítko """"Chci se registrovat"""".","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
+"C220","Výpis registrovaných účastníků- kontrola propisu údajů",""," None","Katerina Dobiasova","2/17/2025 3:08 PM","","Tabulka zachová veškerý počet znaků i přes jejich překročení pro zachování konzistence.","","","","Je otevřena tabulka s výpisem registrovaných klientů.","Critical","","Kateřina Dobiášová","0","","Kateřina Dobiášová","Design","Na základě známých limitů je provedena kontrola propisu znaků ve formuláři.
+
+S ohledem na předchozí testovací případy jsou zkontrolovány položky, kde byl úmyslně překročen počet znaků a registrace takových údajů proběhla v pořádku i přes limit.
+
+Zkontrolovány jsou tedy propisy u:
+Jméno: 30 (použito 31 znaků)
+Email: 50 (použito 51 znaků)
+Adresa: 300 (použito 301 znaků)
+Komentář: 1000 (použito 1011 znaků)
+
+Vybrané případy jsou z výpisu vyjmuty a jejich délka je překontrolována.
+
+
+","","","","","","","Master","S1","Test Case (Text)","Other","Katerina Dobiasova","2/17/2025 3:08 PM"
