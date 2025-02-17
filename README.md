@@ -1,0 +1,2 @@
+# JSST
+Výstupy z kurzu
