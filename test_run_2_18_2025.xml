@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R41</id>
+	<name>Test Run 2/18/2025</name>
+	<description></description>
+	<config>Chrome</config>
+	<createdon>2025-02-18T16:36:00Z</createdon>
+		<completed>false</completed>
+		<milestone></milestone>
+	<stats>
+										<passed>
+			<percent>100</percent>
+			<count>16</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>0</percent>
+			<count>0</count>
+		</failed>
+																																																				</stats>	<sections>
+	<section>
+		<name>Test Cases</name>
+		<description></description>
+						<tests>
+						            																																				<test>
+				<id>T1382</id>
+				<title>Přihlašování (positive)- uživatelské jméno i heslo (novak)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+															<expected>Uživatel bude přihlášen.</expected>
+									</custom>
+												<caseid>C250</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:41:38Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1383</id>
+				<title>Přihlašování (positive)- uživatelské jméno i heslo (admin)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Administrátor zadá správné přihlašovací jméno (admin).
+2. Administrátor zadá správné heslo (tajneadmin).
+3. Administrátor klikne na tlačítko &quot;Login&quot;.
+</steps>
+															<expected>Administrátor bude přihlášen.</expected>
+									</custom>
+												<caseid>C251</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:41:56Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1384</id>
+				<title>Přihlašování (negative)- správné jméno, chybné heslo (chybný znak)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní chybné heslo (tajn3novak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+															<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+												<caseid>C252</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:42:15Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1385</id>
+				<title>Přihlašování (negative)- správné jméno, chybné heslo (zapnutý CapsLock)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní chybné heslo (TAJNENOVAK).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+															<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+												<caseid>C253</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:42:31Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1386</id>
+				<title>Přihlašování (negative)- správné jméno, chybné heslo (mezera mezi slovy)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).
+</preconds>
+															<steps>1. Administrátor zadá správné přihlašovací jméno (admin).
+2. Administrátor zadá chybné heslo (tajne admin).
+3. Administrátor klikne na tlačítko &quot;Login&quot;.</steps>
+															<expected>Administrátor nebude přihlášen.</expected>
+									</custom>
+												<caseid>C254</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:42:50Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1387</id>
+				<title>Přihlašování (negative)- správné jméno, chybné heslo (uvozovky)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Administrátor zadá správné přihlašovací jméno (admin).
+2. Administrátor zadá chybné heslo (&quot;tajneadmin&quot;).
+3. Administrátor klikne na tlačítko &quot;Login&quot;.</steps>
+															<expected>Administrátor nebude přihlášen.</expected>
+									</custom>
+												<caseid>C255</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:43:13Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1388</id>
+				<title>Přihlašování (negative)- správné jméno, chybné heslo (jiné heslo)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní správné heslo (chybneheslo).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.
+</steps>
+															<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+												<caseid>C256</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:43:27Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1389</id>
+				<title>Přihlašování (negative)- chybné jméno, správné heslo (mezera po jméně)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Uživatel vyplní chybné jméno (novak ).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.
+</steps>
+															<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+												<caseid>C257</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:43:44Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1390</id>
+				<title>Přihlašování (negative)- chybné jméno, správné heslo (uvozovky)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>
+Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Uživatel vyplní chybné jméno (&quot;novak&quot;).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+															<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+												<caseid>C258</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:44:00Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1391</id>
+				<title>Přihlašování (negative)- chybné jméno, správné heslo (jiné jméno)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Uživatel vyplní chybné jméno (novakova).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+															<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+												<caseid>C259</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:44:14Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1392</id>
+				<title>Přihlašování (negative)- chybné jméno, správné heslo (chybný znak)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Uživatel vyplní chybné jméno (nov4k).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.
+</steps>
+															<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+												<caseid>C260</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:44:27Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1393</id>
+				<title>Přihlašování (negative)- chybné jméno, správné heslo (zapnutý CapsLock)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Administrátor zadá chybné přihlašovací jméno (ADMIN).
+2. Administrátor zadá správné heslo (tajneadmin).
+3. Administrátor klikne na tlačítko &quot;Login&quot;.</steps>
+															<expected>Administrátor nebude přihlášen.</expected>
+									</custom>
+												<caseid>C261</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:44:42Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1394</id>
+				<title>Automatické odhlášení po 3 minutách nečinnosti</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Uživatel se úspěšně přihlásil.
+
+</preconds>
+															<steps>1. Stránka po přihlášení zůstane otevřena po dobu 3 minut bez činnosti.</steps>
+															<expected>Po 3 minutách dojde k automatickému odhlášení.</expected>
+									</custom>
+												<caseid>C262</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:44:55Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T1395</id>
+				<title>Neplatné heslo- kontrola chybové hlášky</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní správné heslo (chybneheslo).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+															<expected>Objeví se chybová hláška &quot;Kombinace jmena a hesla nesouhlasi!!!&quot;.</expected>
+									</custom>
+												<caseid>C263</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:45:08Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-02-18T16:45:02Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1396</id>
+				<title>Neplatné uživatelské jméno- kontrola chybové hlášky</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+															<steps>1. Uživatel vyplní chybné jméno (novakova).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+															<expected>Objeví se chybová hláška &quot;Kombinace jmena a hesla nesouhlasi!!!&quot;.</expected>
+									</custom>
+												<caseid>C264</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:45:21Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T1397</id>
+				<title>Neplatné uživatelské jméno i heslo- kontrola chybové hlášky</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds> Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).
+
+</preconds>
+															<steps>1. Uživatel vyplní chybné jméno (novakova).
+2. Uživatel vyplní chybné heslo (chybneheslo).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+															<expected>Objeví se chybová hláška &quot;Kombinace jmena a hesla nesouhlasi!!!&quot;.</expected>
+									</custom>
+												<caseid>C265</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-02-18T16:45:27Z</createdon>
+																		<createdby>Katerina Dobiasova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+</run>

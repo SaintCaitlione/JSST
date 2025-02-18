@@ -1,0 +1,57 @@
+"ID","Title","Assigned To","Automation Type","Created By","Created On","Estimate","Expected Result","Forecast","Goals","Mission","Preconditions","Priority","References","Section","Section Depth","Section Description","Section Hierarchy","Steps","Steps","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Step)","Suite","Suite ID","Template","Type","Updated By","Updated On"
+"C250","Přihlašování (positive)- uživatelské jméno i heslo (novak)",""," None","Katerina Dobiasova","2/18/2025 3:59 PM","","Uživatel bude přihlášen.","","","","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Cases","0","","Test Cases","1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:15 PM"
+"C251","Přihlašování (positive)- uživatelské jméno i heslo (admin)",""," None","Katerina Dobiasova","2/18/2025 4:02 PM","","Administrátor bude přihlášen.","","","","Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Cases","0","","Test Cases","1. Administrátor zadá správné přihlašovací jméno (admin).
+2. Administrátor zadá správné heslo (tajneadmin).
+3. Administrátor klikne na tlačítko """"Login"""".
+","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:15 PM"
+"C252","Přihlašování (negative)- správné jméno, chybné heslo (chybný znak)",""," None","Katerina Dobiasova","2/18/2025 4:03 PM","","Uživatel nebude přihlášen.","","","","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Cases","0","","Test Cases","1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní chybné heslo (tajn3novak).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:17 PM"
+"C253","Přihlašování (negative)- správné jméno, chybné heslo (zapnutý CapsLock)",""," None","Katerina Dobiasova","2/18/2025 4:03 PM","","Uživatel nebude přihlášen.","","","","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Medium","","Test Cases","0","","Test Cases","1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní chybné heslo (TAJNENOVAK).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:17 PM"
+"C254","Přihlašování (negative)- správné jméno, chybné heslo (mezera mezi slovy)",""," None","Katerina Dobiasova","2/18/2025 4:04 PM","","Administrátor nebude přihlášen.","","","","Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).
+","Critical","","Test Cases","0","","Test Cases","1. Administrátor zadá správné přihlašovací jméno (admin).
+2. Administrátor zadá chybné heslo (tajne admin).
+3. Administrátor klikne na tlačítko """"Login"""".","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:18 PM"
+"C255","Přihlašování (negative)- správné jméno, chybné heslo (uvozovky)",""," None","Katerina Dobiasova","2/18/2025 4:04 PM","","Administrátor nebude přihlášen.","","","","Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Cases","0","","Test Cases","1. Administrátor zadá správné přihlašovací jméno (admin).
+2. Administrátor zadá chybné heslo (""""tajneadmin"""").
+3. Administrátor klikne na tlačítko """"Login"""".","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:19 PM"
+"C256","Přihlašování (negative)- správné jméno, chybné heslo (jiné heslo)",""," None","Katerina Dobiasova","2/18/2025 4:04 PM","","Uživatel nebude přihlášen.","","","","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Cases","0","","Test Cases","1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní správné heslo (chybneheslo).
+3. Uživatel klikne na tlačítko """"Login"""".
+","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:20 PM"
+"C257","Přihlašování (negative)- chybné jméno, správné heslo (mezera po jméně)",""," None","Katerina Dobiasova","2/18/2025 4:05 PM","","Uživatel nebude přihlášen.","","","","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Medium","","Test Cases","0","","Test Cases","1. Uživatel vyplní chybné jméno (novak ).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko """"Login"""".
+","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:23 PM"
+"C258","Přihlašování (negative)- chybné jméno, správné heslo (uvozovky)",""," None","Katerina Dobiasova","2/18/2025 4:05 PM","","Uživatel nebude přihlášen.","","","","
+Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Cases","0","","Test Cases","1. Uživatel vyplní chybné jméno (""""novak"""").
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:21 PM"
+"C259","Přihlašování (negative)- chybné jméno, správné heslo (jiné jméno)",""," None","Katerina Dobiasova","2/18/2025 4:06 PM","","Uživatel nebude přihlášen.","","","","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Cases","0","","Test Cases","1. Uživatel vyplní chybné jméno (novakova).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:22 PM"
+"C260","Přihlašování (negative)- chybné jméno, správné heslo (chybný znak)",""," None","Katerina Dobiasova","2/18/2025 4:06 PM","","Uživatel nebude přihlášen.","","","","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Cases","0","","Test Cases","1. Uživatel vyplní chybné jméno (nov4k).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko """"Login"""".
+","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:24 PM"
+"C261","Přihlašování (negative)- chybné jméno, správné heslo (zapnutý CapsLock)",""," None","Katerina Dobiasova","2/18/2025 4:06 PM","","Administrátor nebude přihlášen.","","","","Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Cases","0","","Test Cases","1. Administrátor zadá chybné přihlašovací jméno (ADMIN).
+2. Administrátor zadá správné heslo (tajneadmin).
+3. Administrátor klikne na tlačítko """"Login"""".","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:24 PM"
+"C262","Automatické odhlášení po 3 minutách nečinnosti",""," None","Katerina Dobiasova","2/18/2025 4:06 PM","","Po 3 minutách dojde k automatickému odhlášení.","","","","Uživatel se úspěšně přihlásil.
+
+","Medium","","Test Cases","0","","Test Cases","1. Stránka po přihlášení zůstane otevřena po dobu 3 minut bez činnosti.","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:26 PM"
+"C263","Neplatné heslo- kontrola chybové hlášky",""," None","Katerina Dobiasova","2/18/2025 4:10 PM","","Objeví se chybová hláška """"Kombinace jmena a hesla nesouhlasi!!!"""".","","","","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Medium","","Test Cases","0","","Test Cases","1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní správné heslo (chybneheslo).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:27 PM"
+"C264","Neplatné uživatelské jméno- kontrola chybové hlášky",""," None","Katerina Dobiasova","2/18/2025 4:11 PM","","Objeví se chybová hláška """"Kombinace jmena a hesla nesouhlasi!!!"""".","","","","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Medium","","Test Cases","0","","Test Cases","1. Uživatel vyplní chybné jméno (novakova).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:28 PM"
+"C265","Neplatné uživatelské jméno i heslo- kontrola chybové hlášky",""," None","Katerina Dobiasova","2/18/2025 4:11 PM","","Objeví se chybová hláška """"Kombinace jmena a hesla nesouhlasi!!!"""".","","",""," Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).
+
+","Medium","","Test Cases","0","","Test Cases","1. Uživatel vyplní chybné jméno (novakova).
+2. Uživatel vyplní chybné heslo (chybneheslo).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","Master","S2","Test Case (Text)","Other","Katerina Dobiasova","2/18/2025 4:29 PM"

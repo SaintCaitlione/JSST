@@ -1,0 +1,57 @@
+"ID","Title","Assigned To","Automation Type","Case Assigned To","Case ID","Comment","Defects","Elapsed","Estimate","Expected Result","Forecast","Goals","In Progress","Mission","Plan","Plan ID","Preconditions","Priority","References","Run","Run Configuration","Run ID","Section","Section Depth","Section Description","Section Hierarchy","Status","Steps","Steps","Steps (Actual Result)","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Status)","Steps (Step)","Template","Tested By","Tested On","Type","Version"
+"T1382","Přihlašování (positive)- uživatelské jméno i heslo (novak)",""," None","","C250","","","","","Uživatel bude přihlášen.","","","","","Test Runs- Test Login","R40","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:41 PM","Other",""
+"T1383","Přihlašování (positive)- uživatelské jméno i heslo (admin)",""," None","","C251","","","","","Administrátor bude přihlášen.","","","","","Test Runs- Test Login","R40","Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Administrátor zadá správné přihlašovací jméno (admin).
+2. Administrátor zadá správné heslo (tajneadmin).
+3. Administrátor klikne na tlačítko """"Login"""".
+","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:41 PM","Other",""
+"T1384","Přihlašování (negative)- správné jméno, chybné heslo (chybný znak)",""," None","","C252","","","","","Uživatel nebude přihlášen.","","","","","Test Runs- Test Login","R40","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní chybné heslo (tajn3novak).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:42 PM","Other",""
+"T1385","Přihlašování (negative)- správné jméno, chybné heslo (zapnutý CapsLock)",""," None","","C253","","","","","Uživatel nebude přihlášen.","","","","","Test Runs- Test Login","R40","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Medium","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní chybné heslo (TAJNENOVAK).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:42 PM","Other",""
+"T1386","Přihlašování (negative)- správné jméno, chybné heslo (mezera mezi slovy)",""," None","","C254","","","","","Administrátor nebude přihlášen.","","","","","Test Runs- Test Login","R40","Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).
+","Critical","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Administrátor zadá správné přihlašovací jméno (admin).
+2. Administrátor zadá chybné heslo (tajne admin).
+3. Administrátor klikne na tlačítko """"Login"""".","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:42 PM","Other",""
+"T1387","Přihlašování (negative)- správné jméno, chybné heslo (uvozovky)",""," None","","C255","","","","","Administrátor nebude přihlášen.","","","","","Test Runs- Test Login","R40","Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Administrátor zadá správné přihlašovací jméno (admin).
+2. Administrátor zadá chybné heslo (""""tajneadmin"""").
+3. Administrátor klikne na tlačítko """"Login"""".","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:43 PM","Other",""
+"T1388","Přihlašování (negative)- správné jméno, chybné heslo (jiné heslo)",""," None","","C256","","","","","Uživatel nebude přihlášen.","","","","","Test Runs- Test Login","R40","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní správné heslo (chybneheslo).
+3. Uživatel klikne na tlačítko """"Login"""".
+","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:43 PM","Other",""
+"T1389","Přihlašování (negative)- chybné jméno, správné heslo (mezera po jméně)",""," None","","C257","","","","","Uživatel nebude přihlášen.","","","","","Test Runs- Test Login","R40","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Medium","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Uživatel vyplní chybné jméno (novak ).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko """"Login"""".
+","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:43 PM","Other",""
+"T1390","Přihlašování (negative)- chybné jméno, správné heslo (uvozovky)",""," None","","C258","","","","","Uživatel nebude přihlášen.","","","","","Test Runs- Test Login","R40","
+Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Uživatel vyplní chybné jméno (""""novak"""").
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:44 PM","Other",""
+"T1391","Přihlašování (negative)- chybné jméno, správné heslo (jiné jméno)",""," None","","C259","","","","","Uživatel nebude přihlášen.","","","","","Test Runs- Test Login","R40","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Uživatel vyplní chybné jméno (novakova).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:44 PM","Other",""
+"T1392","Přihlašování (negative)- chybné jméno, správné heslo (chybný znak)",""," None","","C260","","","","","Uživatel nebude přihlášen.","","","","","Test Runs- Test Login","R40","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Uživatel vyplní chybné jméno (nov4k).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko """"Login"""".
+","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:44 PM","Other",""
+"T1393","Přihlašování (negative)- chybné jméno, správné heslo (zapnutý CapsLock)",""," None","","C261","","","","","Administrátor nebude přihlášen.","","","","","Test Runs- Test Login","R40","Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Critical","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Administrátor zadá chybné přihlašovací jméno (ADMIN).
+2. Administrátor zadá správné heslo (tajneadmin).
+3. Administrátor klikne na tlačítko """"Login"""".","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:44 PM","Other",""
+"T1394","Automatické odhlášení po 3 minutách nečinnosti",""," None","","C262","","","","","Po 3 minutách dojde k automatickému odhlášení.","","","","","Test Runs- Test Login","R40","Uživatel se úspěšně přihlásil.
+
+","Medium","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Stránka po přihlášení zůstane otevřena po dobu 3 minut bez činnosti.","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:44 PM","Other",""
+"T1395","Neplatné heslo- kontrola chybové hlášky",""," None","","C263","","","","","Objeví se chybová hláška """"Kombinace jmena a hesla nesouhlasi!!!"""".","","","","","Test Runs- Test Login","R40","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Medium","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní správné heslo (chybneheslo).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:45 PM","Other",""
+"T1396","Neplatné uživatelské jméno- kontrola chybové hlášky",""," None","","C264","","","","","Objeví se chybová hláška """"Kombinace jmena a hesla nesouhlasi!!!"""".","","","","","Test Runs- Test Login","R40","Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).","Medium","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Uživatel vyplní chybné jméno (novakova).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:45 PM","Other",""
+"T1397","Neplatné uživatelské jméno i heslo- kontrola chybové hlášky",""," None","","C265","","","","","Objeví se chybová hláška """"Kombinace jmena a hesla nesouhlasi!!!"""".","","","","","Test Runs- Test Login","R40"," Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).
+
+","Medium","","Test Run 2/18/2025","Chrome","R41","Test Cases","0","","Test Cases","Passed","1. Uživatel vyplní chybné jméno (novakova).
+2. Uživatel vyplní chybné heslo (chybneheslo).
+3. Uživatel klikne na tlačítko """"Login"""".","","","","","","","","","Test Case (Text)","Katerina Dobiasova","2/18/2025 4:45 PM","Other",""

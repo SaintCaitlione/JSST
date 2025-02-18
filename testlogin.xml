@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S2</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C250</id>
+				<title>Přihlašování (positive)- uživatelské jméno i heslo (novak)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+											<expected>Uživatel bude přihlášen.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C251</id>
+				<title>Přihlašování (positive)- uživatelské jméno i heslo (admin)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Administrátor zadá správné přihlašovací jméno (admin).
+2. Administrátor zadá správné heslo (tajneadmin).
+3. Administrátor klikne na tlačítko &quot;Login&quot;.
+</steps>
+											<expected>Administrátor bude přihlášen.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C252</id>
+				<title>Přihlašování (negative)- správné jméno, chybné heslo (chybný znak)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní chybné heslo (tajn3novak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+											<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C253</id>
+				<title>Přihlašování (negative)- správné jméno, chybné heslo (zapnutý CapsLock)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní chybné heslo (TAJNENOVAK).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+											<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C254</id>
+				<title>Přihlašování (negative)- správné jméno, chybné heslo (mezera mezi slovy)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).
+</preconds>
+											<steps>1. Administrátor zadá správné přihlašovací jméno (admin).
+2. Administrátor zadá chybné heslo (tajne admin).
+3. Administrátor klikne na tlačítko &quot;Login&quot;.</steps>
+											<expected>Administrátor nebude přihlášen.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C255</id>
+				<title>Přihlašování (negative)- správné jméno, chybné heslo (uvozovky)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Administrátor zadá správné přihlašovací jméno (admin).
+2. Administrátor zadá chybné heslo (&quot;tajneadmin&quot;).
+3. Administrátor klikne na tlačítko &quot;Login&quot;.</steps>
+											<expected>Administrátor nebude přihlášen.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C256</id>
+				<title>Přihlašování (negative)- správné jméno, chybné heslo (jiné heslo)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní správné heslo (chybneheslo).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.
+</steps>
+											<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C257</id>
+				<title>Přihlašování (negative)- chybné jméno, správné heslo (mezera po jméně)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Uživatel vyplní chybné jméno (novak ).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.
+</steps>
+											<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C258</id>
+				<title>Přihlašování (negative)- chybné jméno, správné heslo (uvozovky)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>
+Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Uživatel vyplní chybné jméno (&quot;novak&quot;).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+											<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C259</id>
+				<title>Přihlašování (negative)- chybné jméno, správné heslo (jiné jméno)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Uživatel vyplní chybné jméno (novakova).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+											<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C260</id>
+				<title>Přihlašování (negative)- chybné jméno, správné heslo (chybný znak)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Uživatel vyplní chybné jméno (nov4k).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.
+</steps>
+											<expected>Uživatel nebude přihlášen.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C261</id>
+				<title>Přihlašování (negative)- chybné jméno, správné heslo (zapnutý CapsLock)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Administrátor se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Administrátor zadá chybné přihlašovací jméno (ADMIN).
+2. Administrátor zadá správné heslo (tajneadmin).
+3. Administrátor klikne na tlačítko &quot;Login&quot;.</steps>
+											<expected>Administrátor nebude přihlášen.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C262</id>
+				<title>Automatické odhlášení po 3 minutách nečinnosti</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel se úspěšně přihlásil.
+
+</preconds>
+											<steps>1. Stránka po přihlášení zůstane otevřena po dobu 3 minut bez činnosti.</steps>
+											<expected>Po 3 minutách dojde k automatickému odhlášení.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C263</id>
+				<title>Neplatné heslo- kontrola chybové hlášky</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Uživatel vyplní správné jméno (novak).
+2. Uživatel vyplní správné heslo (chybneheslo).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+											<expected>Objeví se chybová hláška &quot;Kombinace jmena a hesla nesouhlasi!!!&quot;.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C264</id>
+				<title>Neplatné uživatelské jméno- kontrola chybové hlášky</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).</preconds>
+											<steps>1. Uživatel vyplní chybné jméno (novakova).
+2. Uživatel vyplní správné heslo (tajnenovak).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+											<expected>Objeví se chybová hláška &quot;Kombinace jmena a hesla nesouhlasi!!!&quot;.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C265</id>
+				<title>Neplatné uživatelské jméno i heslo- kontrola chybové hlášky</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds> Uživatel se nachází na stránce s loginem (http://testovani.kitner.cz/login_app/).
+
+</preconds>
+											<steps>1. Uživatel vyplní chybné jméno (novakova).
+2. Uživatel vyplní chybné heslo (chybneheslo).
+3. Uživatel klikne na tlačítko &quot;Login&quot;.</steps>
+											<expected>Objeví se chybová hláška &quot;Kombinace jmena a hesla nesouhlasi!!!&quot;.</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
