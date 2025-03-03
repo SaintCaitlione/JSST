@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "6ec6d6fb-8d43-43ec-8953-860821beff30",
+		"name": "Domácí úkol č.4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40196466"
+	},
+	"item": [
+		{
+			"name": "www.rohlik.cz",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "rohlik.cz",
+					"host": [
+						"rohlik",
+						"cz"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login- positive",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"novak\",\"password\":\"tajnenovak\",\"useragent\":\"Chrome\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "testovani.kitner.cz/login_app/userauth.php",
+					"host": [
+						"testovani",
+						"kitner",
+						"cz"
+					],
+					"path": [
+						"login_app",
+						"userauth.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login- negativ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"novak\",\"password\":\"Tajnenovak\",\"useragent\":\"Chrome\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "testovani.kitner.cz/login_app/userauth.php",
+					"host": [
+						"testovani",
+						"kitner",
+						"cz"
+					],
+					"path": [
+						"login_app",
+						"userauth.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
