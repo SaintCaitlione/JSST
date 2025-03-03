@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S4</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C713</id>
+				<title>Bez slevy- 0 ks</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel nakupuje v eshopu.</preconds>
+											<steps>Uživatel v zamíří k pokladně, v košíku nemá žádné zboží, na které by se vztahovala množstevní sleva.</steps>
+											<expected>Výsledná sleva bude 0%.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C714</id>
+				<title>Bez slevy- 3 kusy</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zákazník nakupuje v eshopu, má zboží v košíku.</preconds>
+											<steps>Zákazník má v košíku zboží, na které se vztahuje množstevní sleva v počtu 3 kusy.
+</steps>
+											<expected>Zákazník je stránkou upozorněn, že při nákupu další položky, na kterou se vztahuje množstevní sleva, dostane slevu 3%.
+Pokud bude nákup ukončen se 3 kusy zboží, na které se vztahuje, bude zákazníkovi přidělena sleva 0%. 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C715</id>
+				<title>Mírná sleva- 4 kusy</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zákazník je na eshopu a nakupuje.</preconds>
+											<steps>Zákazník vloží do košíku 4. kus zboží, na který se vztahuje množstevní sleva.
+
+</steps>
+											<expected>Stránka zákazníka během nákupu upozorní na získání množstevní slevy ve výši 3%.
+Při ukončení nákupu bude zákazníkovi odečtena množstevní sleva ve výši 3%.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C716</id>
+				<title>Mírná sleva- 19 ks</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zákazník je na eshopu a nakupuje zboží, na které se vztahuje množstevní sleva.</preconds>
+											<steps>Uživatel vloží do košíku 19. kus zboží.</steps>
+											<expected>Stránka upozorní zákazníka, že pokud přidá do košíku ještě 1 kus zboží, získá vyšší slevu.
+Pokud zákazník přejde v této fázi k pokladně, obdrží množstevní slevu ve výši 3%. 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C717</id>
+				<title>Střední sleva- 20ks</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zákazník je na eshopu a nakupuje zboží, na které se vztahuje množstevní sleva.</preconds>
+											<steps>Zákazník vloží do košíku 20. kus zboží.</steps>
+											<expected>Stránka upozorní zákazníka na získání množstevní slevy ve výši 5%.
+Pokud bude nákup v této fázi ukončen, zákazník získá na pokladně slevu ve výši 5%.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C718</id>
+				<title>Střední sleva- 49ks</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zákazník je na eshopu a nakupuje zboží, na které se vztahuje množstevní sleva.</preconds>
+											<steps>Zákazník vloží do košíku 49. kus zboží.</steps>
+											<expected>Stránka zákazníka upozorní, že při vložení ještě 1 kusu zboží do košíku získá vyšší slevu.
+Pokud bude nákup v této fázi ukončen, zákazník obdrží na pokladně množstevní slevu ve výši 5%.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C719</id>
+				<title>Velká sleva- 50 kusů</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Zákazník je na eshopu a nakupuje zboží, na které se vztahuje množstevní sleva.</preconds>
+											<steps>Zákazník vloží do košíku 50. kus zboží.</steps>
+											<expected>Stránka upozorní na získání množstevní slevy ve výši 10%.
+Pokud bude nákup v této fázi ukončení, zákazník obdrží na pokladně množstevní slevu ve výši 10%.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C720</id>
+				<title>Velká sleva- 999999ks</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel je na eshopu a nakupuje zboží, na které se vztahuje množstevní sleva.</preconds>
+											<steps>Uživatel vloží do košíku 999. kus zboží.</steps>
+											<expected>Upozornění na neplatný vstup (není definován limit).
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C721</id>
+				<title>Neplatný vstup- -1ks</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Uživatel je na eshopu a nakupuje zboží, na které se vztahuje množstevní sleva.</preconds>
+											<steps>Během nákupu položky zákazník ručně nebo pomocí číselníku zadá množství kusů -1.</steps>
+											<expected>Systém upozorní na neplatný vstup.</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
